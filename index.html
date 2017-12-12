@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>E-Vote</title>
+<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+<script src="js/js-depan/jquery.min.js"></script>
+<link rel="stylesheet" href="css/css-depan/style.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/css-depan/style.css">
+<link rel="stylesheet" type="text/css" href="css/css-depan/main.css">
+<link rel="stylesheet" href="css/css-depan/bootstrap.min.css">
+<link rel="stylesheet" href="css/css-depan/flexslider.css">
+<link rel="stylesheet" href="css/css-depan/jquery.fancybox.css">
+<link rel="stylesheet" href="css/css-depan/responsive.css">
+<link rel="stylesheet" href="css/css-depan/font-icon.css">
+<link rel="stylesheet" href="css/css-depan/animate.min.css">
+<link rel="stylesheet" href="css/css-depan/font-awesome.min.css">
+<script type="text/javascript"></script>
+</head>
+
+<body>
+
+<header id="header">
+<nav>
+	<section class="nav-container">
+		<aside class="logo"><img src="images/logo.png" width="auto" height="40px"></aside>
+		<div class="menu">
+			<div class="menu-content">
+				<i class="fa fa-unlock-alt"></i><a href="#" id="login">Login</a> | <i class="fa fa-user"></i><a href="calon_ketua/daftar.php">Register</a>
+			</div>		
+		<div class="arrow-up"></div>
+		<div class="menu-navigasi">
+		    <b>
+			    <a href="#header">Home</a>
+				  <a href="#about">About</a>
+          <a href="#id_logout" data-toggle="modal" data-target="#id_logout" >Syarat & Kriteria</a>
+        </b>
+		</div>
+		<div class="login-form">
+			<form>
+				<label>Username</label>
+				<div>
+					<input type="text" placeholder="Username" required/>
+				</div>
+				<label>Password</label>
+				<div>
+					<input type="password" placeholder="Password" required/>
+				</div>
+        <label>AS</label>
+        <div>
+          <select name="level">
+            <option value="CalonKetua">Calon Ketua</option>
+            <option value="Delegasi">Delegasi</option>
+          </select>
+        </div>
+				<div>
+					<input type="submit" value="LOGIN"/>
+				</div>
+				<div>
+					<a href="#" style="text-decoration:none;position:relative;top:20px;font-size:16px;color:gray;">Forgot Your Password?</a>
+				</div>
+			</form>
+		</div>
+	</section>
+</nav>
+</header>
+
+<!-- banner -->
+<div class="banner">
+	<div class="tulisan">
+		<p><b>YOU ARE<br>
+		THE NEXT...?</b></p>
+	</div>
+	<div class="tombol">
+		<a href="calon_ketua/daftar.php" class="tmb"><b>REGISTER NOW!</b></a>
+	</div>			
+</div>
+<!-- banner -->
+
+<!-- daftar -->
+<section id="daftar" class="daftar service-section">
+  <div class="container">
+  	<div class="how">
+  		<h3><b>HOW TO REGISTER?</b></h3>
+  	</div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 daftar text-center"> <img src="images/login.png" width="150px" height="150px">
+        <div class="daftar-content">
+          <h5>Login & Register</h5>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 daftar text-center"> <img src="images/form.png" width="150px" height="150px">
+        <div class="daftar-content">
+          <h5>Filing</h5>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 daftar text-center"> <img src="images/vote.png" width="150px" height="150px">
+        <div class="daftar-content">
+          <h5>Vote</h5>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 daftar text-center"> <img src="images/done.png" width="150px" height="150px">
+        <div class="daftar-content">
+          <h5>Done!</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- daftar -->
+
+<!-- Testimonials -->
+<section id="about" class="section testimonials no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <p>“Seorang pemimpin mampu menyentuh hati orang lain sebelum meminta mereka melakukan sesuatu.” </p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <p>“Setiap orang memiliki hak, tanggung jawab dan kemampuan untuk menjadi seorang pemimpin. “ </p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <p>“Pemimpin menjadi suri tauladan yang lebih kuat saat mereka belajar, bukan saat mereka mengajar. “</p>
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                <p>“Hal yang paling mendasar dari kepemimpinan adalah bahwa Anda harus memiliki sebuah visi.“</p>
+              </blockquote>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Testimonials section --> 
+
+<!-- ABOUT US -->
+<section id="teams" class="section teams">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+      </div>
+      
+      <div class="col-md-3 col-sm-6">
+        <div class="person"> <img src="images/aip.jpg" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>Moch. Arif Zamzami</h4>
+            <h5 class="role">Informatics Engineering<br>1157050090</h5>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="https://www.facebook.com/moch.a.zamzami" target="_blank"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="https://twitter.com/aipjamjam" target="_blank"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="https://plus.google.com/118015612138931978490?hl=id" target="_blank"><span class="fa fa-google-plus"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-6">
+        <div class="person"> <img src="images/people.png" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>Ihsan Miftahul Huda</h4>
+            <h5 class="role">Informatics Engineering<br>1157050074</h5>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="https://www.facebook.com/" target="_blank"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="https://plus.google.com/" target="_blank"><span class="fa fa-google-plus"></span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ABOUT US -->
+
+<!-- FOOTER -->
+<footer>
+	<h5><b>Copyright &copy Project PAW</b></h5>
+</footer>
+<!-- FOOTER -->
+
+<script src="js/js-depan/jquery.min.js"></script> 
+<script src="js/js-depan/bootstrap.min.js"></script> 
+<script src="js/js-depan/jquery.flexslider-min.js"></script> 
+<script src="js/js-depan/jquery.fancybox.pack.js"></script> 
+<script src="js/js-depan/retina.min.js"></script> 
+<script src="js/js-depan/modernizr.js"></script> 
+<script src="js/js-depan/main.js"></script> 
+<script type="text/javascript" src="js/js-depan/jquery.contact.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	var arrow = $(".arrow-up");
+	var form = $(".login-form");
+	var status = false;
+	$("#login").click(function(event){
+		event.preventDefault();
+		if(status == false){
+			arrow.fadeIn();
+			form.fadeIn();
+			status = true;
+		}else{
+			arrow.fadeOut();
+			form.fadeOut();
+			status = false;
+		}
+	})
+})
+
+</script>
+
+<div class="modal fade" id="id_logout" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">SYARAT & KRITERIA CALON KETUA HIMATIF</h4>
+          </div>
+          <div class="modal-body">
+            <h5>SYARAT :</h5>
+            <ol><li>Mengisi form pendaftaran</li>
+              <li>Melampirkan transkip nilai</li>
+              <li>Melampirkan Surat Keterangan aktif kuliah</li>
+              <li>Melampirkan foto formal 3x4 dan 2x3 masing - masing 1 lembar</li>
+              <li>Semua Berkas di upload pada akun para calon</li>
+            </ol>
+            </br>
+            <h5>KRITERIA :</h5>
+            <ol><li>Bersetatus mahasiswa aktif</li>
+              <li>Ipk minimal 3.25</li>
+              <li>Duduk Semester V & VII</li>
+              <li>Mampu membaca Alquran</li>
+              <li>Pernah menjadi pengurus organisasi intra kampus dengan bukti SK</li>
+              <li>Tidak menjabat sebagai ketua umum di organisasi lain</li>
+              <li>Sehat Jasmani dan rohani</li>
+              <li>Bersedia dicalonkan ataupun mencalonkan diri secara tertulis</li>
+              <li>Tidak pernah melanggar tatatertib dan kode etik mahasiswa</li>
+              <li>Memiliki visi dan misi yang jelas</li>
+              <li>Mendapat rekomendasi tertulis dari Ketua Jurusan</li>
+            </ol>
+            
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" type="button" data-dismiss="modal">CLOSE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
+
+<!--
+body bgcolor #bfc2c2
+nav bgcolor #0a4b33
+hover bgcolor #0b8256
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
