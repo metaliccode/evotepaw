@@ -1,9 +1,9 @@
 <?php
-include "koneksi.php";
 class testdaftar{
-
 	public function daftar(){
-
+		
+		include "koneksi.php";
+		
 		$username 	= addslashes(strip_tags ($_POST['username'])); 
 		$password 	= addslashes(strip_tags ($_POST['password'])); 
 		$password2 	= addslashes(strip_tags ($_POST['password2'])); 
