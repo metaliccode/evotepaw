@@ -57,15 +57,6 @@ $r=mysqli_fetch_assoc($query);
           </td>
         </tr>
         <tr>
-          <td>Status</td>
-          <td>
-            <select name="status" class="form-control col-md-3">
-              <option value="Belum Memilih">Belum Memilih</option>
-              <option value="Sudah Memilih">Sudah Memilih</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
           <td colspan=3>
           <input type="submit" name="tambah" value="Save" class="btn btn-large btn-primary" />&nbsp;&nbsp;&nbsp;
           <input type="reset" name="reset" value="Reset" class="btn btn-large btn-warning" />&nbsp;&nbsp;&nbsp;

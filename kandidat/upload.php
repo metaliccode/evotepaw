@@ -23,9 +23,10 @@ include('php/cek-akses.php');
           <b>.doc, .docx, .pdf, .rar, .zip</b> dan besar file (file size) maksimal hanya 1 MB.</p>
           <p>Silahkan Upload FIle :
           <ol>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+            <li>Transkip Nilai</li>
+            <li>Surat Keterangan Ketua jurusan</li>
+            <li>Surat Aktif Organisasi</li>
+            <li>Surat Keterangan Mahasiswa Aktif</li>
           </ol>
           *File bisa di upload secara beruntun
           </br>*Atau di kolektifkan dalam bentuk zip / rar  

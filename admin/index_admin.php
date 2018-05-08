@@ -112,12 +112,6 @@ include('php/cek-akses.php');
                 </li>
               </ul>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href=<?php echo "?page=berita";?>>
-              <i class="fa fa-fw fa-sitemap"></i>
-              <span class="nav-link-text">Berita</span>
-            </a>
             
           <li class="nav-item">
             <a class="nav-link" href=<?php echo "?page=tentang";?>>
